@@ -1,0 +1,13 @@
+# Write a Python function that formats a person's full name in title case
+def format_name(f_name, l_name):
+    full_name = f_name + ' ' + l_name
+    full_name = full_name.lower()
+    full_name = full_name.title()
+    return full_name
+
+
+formatted_name1 = format_name("john", "doe")
+formatted_name2 = format_name("Sarah", "mcClain")
+
+print(formatted_name1) 
+print(formatted_name2)  
